@@ -1,0 +1,13 @@
+.exchange-list {
+  margin: 0 0 0 0;
+  padding: 0 0 0 0;
+}
+.exchange-list-valute {
+  list-style-type: none;
+}
+.exchange-list-valute-name {
+  font-size: 20px;
+}
+.exchange-list-valute-value {
+  color: #1b93ce;
+}

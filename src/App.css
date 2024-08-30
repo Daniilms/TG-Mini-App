@@ -1,0 +1,12 @@
+#root {
+  max-width: 1280px;
+  margin: 0 auto;
+  padding: 2rem;
+  text-align: center;
+}
+
+.main {
+  padding: 20px;
+  border-radius: 15px;
+  background-color: #c8dae8;
+}

@@ -1,0 +1,8 @@
+.navigation-menu-link {
+  font-size: 17px;
+  color: #1b93ce;
+  list-style-type: none;
+}
+.navigation-menu-link:not(:last-child) {
+  margin: 0 10px 0 0;
+}

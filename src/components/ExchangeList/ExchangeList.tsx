@@ -9,7 +9,7 @@ export const ExchangeList = ({ data }: ExchangeListProps) => {
     <ul className="exchange-list">
       {data.map((data: ExchangeT) => {
         return (
-          <li className="exchange-list-valute">
+          <li className="exchange-list-valute" key={data.ID}>
             <p className="exchange-list-valute-name">{data.Name}:</p>
             <p className="exchange-list-valute-value">
               {data.Value.toFixed(2)}

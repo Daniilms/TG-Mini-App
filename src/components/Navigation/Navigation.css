@@ -1,7 +1,7 @@
 .navigation-menu {
   display: flex;
   justify-content: space-between;
-  padding: 15px 20px;
+  padding: 15px 30px;
   margin: 0 5px 0 5px;
   border-radius: 15px;
   border: 1px solid #38afe4;

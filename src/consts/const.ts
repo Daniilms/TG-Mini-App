@@ -5,7 +5,7 @@ export const Links: LinkT[] = [
     pageNumber: "firstPage",
     parameters: {
       pageName: "Socket",
-      pageUrl: "",
+      pageUrl: "/",
       id: "1232324qwe",
     },
   },
@@ -13,7 +13,7 @@ export const Links: LinkT[] = [
     pageNumber: "secondPage",
     parameters: {
       pageName: "Exchange",
-      pageUrl: "",
+      pageUrl: "/exchange",
       id: "123asd",
     },
   },
@@ -21,7 +21,7 @@ export const Links: LinkT[] = [
     pageNumber: "thirdPage",
     parameters: {
       pageName: "InfinityScroll",
-      pageUrl: "",
+      pageUrl: "/infinityScroll",
       id: "1232324oiajkaka",
     },
   },
@@ -30,4 +30,6 @@ export const Links: LinkT[] = [
 export enum Valutes {
   EUR = "EUR",
   USD = "USD",
+  AUD = "AUD",
+  CAD = "CAD",
 }

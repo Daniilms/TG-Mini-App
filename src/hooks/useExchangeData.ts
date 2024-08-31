@@ -11,7 +11,6 @@ export const useExchangeData = () => {
       try {
         const response = await fetch(`${API_EXCHANGE}`);
         const data = await response.json();
-        console.log(data);
 
         const filteredData = [];
         for (const key in data.Valute) {

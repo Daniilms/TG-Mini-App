@@ -1,8 +1,7 @@
 .infinity-books-list {
   width: 100%;
   display: grid;
-  grid-template-columns: repeat(2, 48%);
-
+  grid-template-columns: repeat(2, 50%);
   gap: 5px;
   padding: 5px;
   margin: 0 0 10px 0;

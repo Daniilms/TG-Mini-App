@@ -1,9 +1,9 @@
+import { useCallback, useEffect, useState } from "react";
 import { useLocation } from "react-router-dom";
 import { Links } from "../../consts/const";
 import { LinkT } from "../../consts/types";
 import { NavLink } from "../Link/NavLink";
 import "./Navigation.css";
-import { useCallback, useEffect, useState } from "react";
 
 export const Navigation = () => {
   const currentUrl = useLocation();

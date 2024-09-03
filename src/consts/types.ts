@@ -7,6 +7,7 @@ export interface ParametersT {
   pageName: string;
   pageUrl: string;
   id: string;
+  isActive: boolean;
 }
 
 export interface ExchangeT {

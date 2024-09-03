@@ -7,6 +7,7 @@ export const Links: LinkT[] = [
       pageName: "Socket",
       pageUrl: "/",
       id: "1232324qwe",
+      isActive: true,
     },
   },
   {
@@ -15,6 +16,7 @@ export const Links: LinkT[] = [
       pageName: "Exchange",
       pageUrl: "/exchange",
       id: "123asd",
+      isActive: false,
     },
   },
   {
@@ -23,6 +25,7 @@ export const Links: LinkT[] = [
       pageName: "InfinityScroll",
       pageUrl: "/infinityScroll",
       id: "1232324oiajkaka",
+      isActive: false,
     },
   },
 ];

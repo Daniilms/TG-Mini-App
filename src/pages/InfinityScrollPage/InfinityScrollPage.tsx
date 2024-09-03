@@ -32,7 +32,9 @@ export const InfinityScrollPage = () => {
     <div className="scroll-container">
       <div className="infinity-wrp">
         <BooksList booksList={displayedItems} />
-        <Button text={"Load More"} action={handleLoadMore} />
+        {displayedItems.length > 0 ? (
+          <Button text={"Load More"} action={handleLoadMore} />
+        ) : null}
       </div>
     </div>
   );

@@ -2,12 +2,12 @@ import "./Button.css";
 
 interface ButtonProps {
   text: string;
-  action: () => void;
+  action?: () => void;
 }
 
 export const Button = ({ text, action }: ButtonProps) => {
   return (
-    <button className="button" onClick={action}>
+    <button className="button" onClick={action} type="submit">
       {text}
     </button>
   );

@@ -2,12 +2,21 @@
   margin: 0 0 0 0;
   padding: 0 0 0 0;
 }
+.exchange-header {
+  margin: 0 0 70px 0;
+}
 .exchange-list-valute {
+  display: flex;
+  justify-content: center;
+  flex-direction: column;
+  align-items: center;
   list-style-type: none;
 }
 .exchange-list-valute-name {
   font-size: 20px;
+  margin: 0 0 10px 0;
 }
 .exchange-list-valute-value {
   color: #1b93ce;
+  margin: 0 0 10px 0;
 }

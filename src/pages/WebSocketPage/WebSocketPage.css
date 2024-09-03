@@ -1,5 +1,8 @@
 .websocket-wrp {
   height: 480px;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
 }
 
 .websocket-form {
@@ -15,4 +18,10 @@
   background-color: #ffffff;
   color: #000000;
   margin: 0 0 10px 0;
+}
+.websocket-title {
+  color: #ffffff;
+}
+.websocket-server-response {
+  color: #ffffff;
 }

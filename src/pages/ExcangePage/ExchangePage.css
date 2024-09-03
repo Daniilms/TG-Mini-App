@@ -1,0 +1,13 @@
+.exchange-wrp {
+  height: 490px;
+}
+.exchange-header {
+  font-size: 40px;
+  margin: 10px 0 0 0;
+}
+.loader-wrp {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  height: 50vh;
+}

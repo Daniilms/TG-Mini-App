@@ -1,0 +1,16 @@
+.infinity-books-list-card {
+  height: 200px;
+  width: 90%;
+  padding: 5px;
+  border: 1px solid #1b93ce;
+  padding: 5px;
+  border-radius: 15px;
+  list-style-type: none;
+}
+
+.infinity-books-list-card-title {
+  font-size: 12px;
+}
+.infinity-books-list-card-author {
+  font-size: 12px;
+}

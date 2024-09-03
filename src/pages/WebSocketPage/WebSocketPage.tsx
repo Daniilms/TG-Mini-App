@@ -41,6 +41,7 @@ export const WebSocketPage = () => {
       }
     };
   }, [currentLocation]);
+
   return (
     <div className="websocket-wrp">
       <h1 className="websocket-title">WebSocket Echo</h1>

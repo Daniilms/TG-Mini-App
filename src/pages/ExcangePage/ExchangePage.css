@@ -1,5 +1,8 @@
 .exchange-wrp {
   height: 490px;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
 }
 .exchange-header {
   font-size: 40px;

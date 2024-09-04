@@ -2,7 +2,7 @@ import { useCallback, useEffect, useState } from "react";
 import { useLocation } from "react-router-dom";
 import { Links } from "../../consts/const";
 import { LinkT } from "../../consts/types";
-import { NavLink } from "../Link/NavLink";
+import { NavLink } from "../NavLink/NavLink";
 import "./Navigation.css";
 
 export const Navigation = () => {
